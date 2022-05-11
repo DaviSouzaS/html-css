@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de responsividade</title>
+    <style>
+body {
+    background-color: grey;
+ }
+
+ h1::after  {
+    content: '\00A0\1F517';
+}
+
+h1::before {
+    content: '\00A0\1F517';
+}
+
+p::after  {
+    content: '\00A0\1F517';
+}
+
+p::before {
+    content: '\00A0\1F517';
+}
+
+ main {
+     background-color: white;
+     border-radius: 10px;
+     min-width: 270px;
+     max-width: 800px;
+     margin: auto;
+     padding: 10px;
+     text-align: justify;
+ }
+
+ img {
+     width: 100%;
+ }
+
+ .youtube{
+    background-color: gray;
+    margin: 20px;
+    padding: 10px;
+    padding-bottom: 55%;
+    position: relative;
+    border-radius: 10px;
+ }
+
+.youtube > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando responsividade</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro sit officia est tempore optio, deserunt iure placeat voluptate soluta quasi. Rerum vitae consectetur doloremque accusamus, quis delectus voluptatem sapiente id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit eaque neque, quibusdam aperiam ipsa accusamus mollitia dignissimos exercitationem deleniti optio, a hic! Vero laboriosam mollitia cumque. Dolorem in autem delectus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis distinctio placeat iusto, temporibus quisquam, natus incidunt, quo qui quod iure mollitia deserunt exercitationem! Odit natus adipisci nihil in, itaque dolore!</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="irinablok">
+        </picture>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro sit officia est tempore optio, deserunt iure placeat voluptate soluta quasi. Rerum vitae consectetur doloremque accusamus, quis delectus voluptatem sapiente id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit eaque neque, quibusdam aperiam ipsa accusamus mollitia dignissimos exercitationem deleniti optio, a hic! Vero laboriosam mollitia cumque. Dolorem in autem delectus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis distinctio placeat iusto, temporibus quisquam, natus incidunt, quo qui quod iure mollitia deserunt exercitationem! Odit natus adipisci nihil in, itaque dolore!</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/dan-droids-pq.png">
+            <img src="imagens/dan-droids.png" alt="dandroid">
+        </picture>
+        <article class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FIKjV36CBRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+    </main>
+    
+    
+</body>
+</html>

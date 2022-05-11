@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body><h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminiua o tamanho do seu navegador Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid numquam ipsum amet distinctio eius quis blanditiis unde cupiditate, labore quas. Omnis provident eum quae cumque, eaque architecto eos illo itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eius facilis temporibus repellendus, ad aspernatur commodi, hic assumenda enim fugit modi! Quas facere ipsum rerum impedit. Eius, qui accusantium. Omnis?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem consequuntur debitis veritatis, sit autem officia, totam cupiditate voluptatem dolores vitae quam? Ullam nulla alias eveniet ut rerum. Quibusdam, cupiditate tempore?</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="foto flexível">    
+    </picture>
+<p><br></p>
+    <picture>
+<source media="(max-width: 650px)" srcset="imagens/paisagem-p.jpg" type="image/jpg">
+<source media="(max-width: 1024px)" srcset="imagens/paisagem-m.jpg" type="image/jpg">
+        <img src="imagens/paisagem-g.jpg" alt="paisagem felxível">
+    </picture>
+    <p><br></p>
+<picture>
+<source media="(max-width: 775px)" srcset="imagens/antartica-p.png" type="image/jpg">
+<source media="(max-width: 1024px)" srcset="imagens/antartica-m.png" type="image/jpg">
+    <img src="imagens/antartica-g.jpg" alt="anatartica">
+</picture>    
+<h2>Reproduzindo Áudios</h2>
+<p>Agora vamos adicionar áudios em HTML5</p>
+<audio src="midia/shesamerica.mp3" controls ></audio>
+<audio preload="metadata"  controls> 
+<source src="midia/guanacast.mp3" type="audio/mpeg">
+<source src="midia/guanacast.wav" type="audio/wav">
+<source src="midia/guanacast.ogg" type="audio/ogg">
+</audio>
+<p>Se não conseguir ouvir o audio, baixe <a href="midia/guanacast.mp3" download="guanacast.mp3" type="audio/mpeg">AQUI</a>.</p>
+</body>
+</html>
