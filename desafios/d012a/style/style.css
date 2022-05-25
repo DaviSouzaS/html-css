@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+    
+body {
+    font:  2em 'Sriracha', cursive;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    font-size: 12vw;
+    font-family: 'Passion One', cursive;
+}
+
+header > h1 {
+    font-size: 12vw;
+    
+} 
+
+#linktop {
+    color: white;
+    font: normal 20px Arial, Helvetica, sans-serif;
+}
+
+header p {
+    color: white;
+    font: normal 20px Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 70px 0px 55px 10px;
+    line-height: 2em;
+    font-size: 3.5vw
+}
+
+#estrofe2 {
+    background: darkgreen url(../imagens/background001.jpg) center right fixed;
+    color: white;
+    padding: 160px 10px;
+}
+
+#estrofe4 {
+    background: antiquewhite url(../imagens/background002.jpg) center center fixed;
+    color: white;
+    padding: 160px 10px;
+}
+
+.estrofes {
+    padding: 50px 0px;
+}
+
+.marca {
+    background-color: rgba(0, 0, 0, 0.267);
+    display: inline-block;
+    padding: 25px 15px 25px 20px;
+    margin-left: -10px;
+}
+
+.link {
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font: 2vw Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+
