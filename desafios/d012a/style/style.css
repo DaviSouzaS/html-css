@@ -6,9 +6,11 @@
     margin: 0px;
     padding: 0px;
 }
-    
-body {
-    font:  2em 'Sriracha', cursive;
+
+:root {
+--fonte-texto: 'Sriracha', cursive;
+--fonte-titulo: 'Passion One', cursive;
+--font-comum: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -16,23 +18,21 @@ header {
     background-color: black;
     color: white;
     padding: 40px;
-    font-size: 12vw;
-    font-family: 'Passion One', cursive;
+    font: 4vw var(--fonte-titulo);
 }
 
-header > h1 {
-    font-size: 12vw;
-    
-} 
+main {
+    font:  2em var(--fonte-texto) ;
+}
 
 #linktop {
     color: white;
-    font: normal 20px Arial, Helvetica, sans-serif;
+    font: normal 1.5vw var(--font-comum);
 }
 
 header p {
     color: white;
-    font: normal 20px Arial, Helvetica, sans-serif;
+    font: normal 1.5vw var(--font-comum);
 }
 
 a {
@@ -51,18 +51,20 @@ section {
 
 #estrofe2 {
     background: darkgreen url(../imagens/background001.jpg) center right fixed;
+    box-shadow: inset -5px 10px 10px rgb(0 0 0 / 40%);
     color: white;
-    padding: 160px 10px;
+    padding: 60px 10px;
 }
 
 #estrofe4 {
     background: antiquewhite url(../imagens/background002.jpg) center center fixed;
+    box-shadow: inset -5px 10px 10px rgb(0 0 0 / 40%);
     color: white;
-    padding: 160px 10px;
+    padding: 60px 10px;
 }
 
 .estrofes {
-    padding: 50px 0px;
+    padding: 10px 0px;
 }
 
 .marca {
@@ -72,16 +74,12 @@ section {
     margin-left: -10px;
 }
 
-.link {
-    color: white;
-}
-
-footer {
+footer > p, a {
     background-color: black;
     color: white;
     text-align: center;
-    font: 2vw Arial, Helvetica, sans-serif;
-    padding: 20px;
+    font: 1.5vw var(--font-comum);
+    padding: 5px;
 }
 
 
