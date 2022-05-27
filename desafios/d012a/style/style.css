@@ -18,11 +18,12 @@ header {
     background-color: black;
     color: white;
     padding: 40px;
+    font-variant: small-caps;
     font: 4vw var(--fonte-titulo);
 }
 
 main {
-    font:  2em var(--fonte-texto) ;
+    font-family: var(--fonte-texto) ;
 }
 
 #linktop {
@@ -46,25 +47,35 @@ a:hover {
 section {
     padding: 70px 0px 55px 10px;
     line-height: 2em;
-    font-size: 3.5vw
+    font-size: 3vw
 }
 
 #estrofe2 {
-    background: darkgreen url(../imagens/background001.jpg) center right fixed;
+    background-color: darkgreen;
+    background-image: url(../imagens/background001.jpg);
+    background-position: center right;
+    background-attachment: fixed;
+    background-size: cover;
     box-shadow: inset -5px 10px 10px rgb(0 0 0 / 40%);
     color: white;
-    padding: 60px 10px;
+    padding: 60px 25px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 #estrofe4 {
-    background: antiquewhite url(../imagens/background002.jpg) center center fixed;
+    background-color: antiquewhite;
+    background-image: url(../imagens/background002.jpg);
+    background-position: center right;
+    background-attachment: fixed;
+    background-size: cover;
     box-shadow: inset -5px 10px 10px rgb(0 0 0 / 40%);
     color: white;
-    padding: 60px 10px;
+    padding: 60px 25px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 .estrofes {
-    padding: 10px 0px;
+    padding: 60px 0px;
 }
 
 .marca {
